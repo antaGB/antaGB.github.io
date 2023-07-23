@@ -79,11 +79,11 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 .loader.remove {
-  top: -200%;
+  top: -150%;
 }
 
 /* navbar */
@@ -177,11 +177,11 @@ nav .container {
 }
 
 .profile-text h1 {
-  font-size: 3rem;
+  font-size: clamp(2rem, 3vw + 1rem, 3rem);
 }
 
 .profile-text p {
-  font-size: 1.2rem;
+  font-size: clamp(0.9rem, 2vw, 1.2rem);
 }
 
 /* about */
